@@ -3,7 +3,6 @@
 //  Quizzler-iOS13
 //
 //  Created by Tyrone Oggen on 2021/05/17.
-//  Copyright © 2021 The App Brewery. All rights reserved.
 //
 
 import UIKit
