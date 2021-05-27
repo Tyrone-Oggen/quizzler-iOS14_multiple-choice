@@ -48,9 +48,11 @@ class ViewController: UIViewController {
         questionLabel.text = quizBrain.getQuestionText()
         progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "Score: \(quizBrain.getScore())"
+        
         option1Button.setTitle(quizBrain.getQuestionOptions(0), for: .normal)
         option2Button.setTitle(quizBrain.getQuestionOptions(1), for: .normal)
         option3Button.setTitle(quizBrain.getQuestionOptions(2), for: .normal)
+        
         option1Button.backgroundColor = UIColor.clear
         option2Button.backgroundColor = UIColor.clear
         option3Button.backgroundColor = UIColor.clear
